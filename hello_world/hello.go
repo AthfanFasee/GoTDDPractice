@@ -26,6 +26,7 @@ func Hello(name string, language string) string {
 func greetingPrefix(language string) (prefix string) {
 	// In our function signature we have made a named return value (prefix string)
 	// This will create a variable called prefix in your function
+	// It should generally be used when the meaning of the result isn't clear from context,
 	switch language {
 	case french:
 		prefix = frenchHelloPrefix

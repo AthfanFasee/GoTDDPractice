@@ -1,3 +1,3 @@
-module github.com/AthfanFasee/GoTestingPractice
+module github.com/AthfanFasee/GoTDDPractice
 
 go 1.20
